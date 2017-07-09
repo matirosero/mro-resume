@@ -1,4 +1,4 @@
-// Import Resume CSS
+// Import Resume Vendor CSS
 @import "../../../resume/css/bootstrap.css";
 @import "../../../resume/css/custom-scrollbar.css";
 @import "../../../resume/css/flickity.css";
@@ -6,5 +6,43 @@
 @import "../../../resume/css/icomoon.css";
 @import "../../../resume/css/jquery.fullPage.css";
 @import "../../../resume/css/owl.css";
-@import "../../../resume/css/screen.css";
 // @import "../../../resume/css/.css";
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Main Styling
+2. Preloader
+3. Slide Preloader
+4. Start Animations
+5. Slides Controls
+6. Main Pagination
+7. Contact Form
+8. Comments Area
+9. Header
+10. Navigation
+11. FP Navigation
+12. Scroll Toggle
+13. Main Section
+14. About Section
+15. Portfolio Section
+	15.1. Portfolio Container
+	15.2. Filter Box
+16. Blog Section
+	16.1. Blog Item
+17. Contact Section
+18. Single Project Slide
+19. Blogpost Slide
+20. Search Form
+21. 404 Page
+20. Responsive
+
+-------------------------------------------------------------------*/
+
+// Import Resume theme CSS
+@import "../../../resume/css/screen.css";
+
+.section-title + .portfolio-wrapper {
+	margin-top: 40px;
+}
