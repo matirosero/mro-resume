@@ -1,12 +1,12 @@
 // Import Resume Vendor CSS
-@import "../../../resume/css/bootstrap.css";
-@import "../../../resume/css/custom-scrollbar.css";
-@import "../../../resume/css/flickity.css";
-@import "../../../resume/css/font-awesome.css";
-@import "../../../resume/css/icomoon.css";
-@import "../../../resume/css/jquery.fullPage.css";
-@import "../../../resume/css/owl.css";
-// @import "../../../resume/css/.css";
+@import "vendors/bootstrap";
+@import "vendors/custom-scrollbar";
+@import "vendors/flickity";
+@import "vendors/font-awesome";
+@import "vendors/icomoon";
+@import "vendors/jquery.fullPage";
+@import "vendors/owl";
+// @import "vendors/";
 
 
 /*------------------------------------------------------------------
@@ -41,7 +41,7 @@
 -------------------------------------------------------------------*/
 
 // Import Resume theme CSS
-@import "../../../resume/css/screen.css";
+@import "vendors/screen";
 
 .section-title + .portfolio-wrapper {
 	margin-top: 40px;
