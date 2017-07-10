@@ -1,0 +1,60 @@
+$about-borders: 1px solid $white-transparent;
+
+.services-carousel {
+	.carousel-controls {
+		border: $about-borders;
+		span .fa {
+			color: $white-transparent-hover;
+		}
+	}
+}
+
+.timeline-box {
+	border: $about-borders;
+	ul li {
+		.details-wrapper {
+			.timeline-circle {
+				background: $bg-purple;
+			}
+			p {
+				color: $light-purple;
+			}
+		}
+
+		&:hover {
+			.date-wrapper .date,
+			.details-wrapper h3 a {
+				color: $peach;
+			}
+			.details-wrapper {
+				.timeline-circle {
+					border-color: $peach;
+				}
+			}		
+		}
+	}
+}
+
+.awards-box {
+	background: $bg-purple-lighter;
+	.icon {
+		background: $white;
+		font-size: 36px;
+	}
+	.box-title,
+	h3 { 
+		color: $white;
+	}
+	ul {
+		padding-left: 25px;
+		margin-right: 0;
+		
+		li {
+			color: $white;
+			p {
+				color: lighten( $light-purple, 10% );
+			}
+		}
+	}
+}
+

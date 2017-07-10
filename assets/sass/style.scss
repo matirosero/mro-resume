@@ -46,6 +46,9 @@
 // Import Resume theme CSS
 @import "vendors/screen";
 
+// Tweaks
+@import "tweaks/tweaks";
+
 .section-title + .portfolio-wrapper {
 	margin-top: 40px;
 }

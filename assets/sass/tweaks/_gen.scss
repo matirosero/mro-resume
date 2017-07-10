@@ -1,0 +1,119 @@
+.pagination {
+	ul li {
+		span {
+			color: $purple;
+		}
+		a.current,
+		a:hover {
+			color: $purple;
+		}
+	}
+}
+
+.portfolio-item {
+	hr {
+		border-color: $purple;
+	}
+	&.portfolio-video h3:first-of-type:after {
+		border-bottom: 4px solid $purple;
+	}
+}
+
+.blogpost-body {
+	.page-numbers {
+		li {
+			color: $purple;
+			a:hover {
+				color: $purple;
+			}
+		}
+	}
+}
+
+
+
+//lighter purple?
+
+.comment-form input[type='submit']:hover,
+.comment-form input[type='submit']:active {
+	background: $light-purple;
+}
+
+.comment-form input:not([type='submit']),
+.comment-form textarea {
+	color: $light-purple;
+}
+.comment-form .input-group input.has-value ~ label,
+.comment-form .input-group textarea.has-value ~ label,
+.comment-form .input-group input:focus ~ label,
+.comment-form .input-group textarea:focus ~ label {
+	color: $light-purple;
+}
+
+.comment-form .input-group input.has-value,
+.comment-form .input-group textarea.has-value,
+.comment-form .input-group input:focus,
+.comment-form .input-group textarea:focus {
+	border-color: $light-purple;
+}
+
+.comments-area .ul-comments .comment .comment-body .comment-reply-link:hover {
+	color: $light-purple;
+}
+
+.contact-group .comment-form input[type='submit']:hover {
+	background: $light-purple;
+}
+
+nav {
+	ul li {
+		a:hover {
+			color: $purple;
+			border-color: $purple;
+		}
+		&.menu-item-has-children a {
+			border-color: $purple;
+		}
+	}
+}
+
+blockquote {
+	quotes: "\201C""\201D""\2018""\2019";
+	background: #119a6b;
+	padding: 50px 30px 70px 30px;
+	color: #fff !important;
+}
+
+blockquote:before {
+	font-family: 'Times New Roman', serif;
+	content: open-quote;
+	position: absolute;
+	color: $white;
+	font-size: 32px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	background: #119a6b;
+	left: 50%;
+	margin: -17px 0 0 -20px;
+}
+
+.project-cover .slider-nav i:hover {
+	color: $purple;
+	border-color: $purple;
+}
+
+.blogpost-body input[type='submit']:hover,
+.blogpost-body input[type='submit']:active {
+	background: $purple;
+}
+
+.blogpost-body .panel-group .panel-title a:first-of-type:hover {
+	color: #119a6b;
+}
+
+.content-wrapper-404 .content-404 .back-home:hover {
+	background: #119a6b;
+	color: $white;
+}
+
