@@ -1,0 +1,12 @@
+/* === 10. START NAVIGATION === */
+nav {
+	ul li {
+		a:hover {
+			color: $purple;
+			border-color: $purple;
+		}
+		&.menu-item-has-children a {
+			border-color: $purple;
+		}
+	}
+}

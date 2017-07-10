@@ -1,0 +1,13 @@
+/* === 6. START MAIN PAGINATION === */
+
+.pagination {
+	ul li {
+		span {
+			color: $purple;
+		}
+		a.current,
+		a:hover {
+			color: $purple;
+		}
+	}
+}

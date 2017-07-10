@@ -1,0 +1,10 @@
+/* === 15.1. Styling Portfolio Container === */
+
+.portfolio-item {
+	hr {
+		border-color: $purple;
+	}
+	&.portfolio-video h3:first-of-type:after {
+		border-bottom: 4px solid $purple;
+	}
+}

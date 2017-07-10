@@ -1,0 +1,30 @@
+/* === 7. START CONTACT FORM === */
+
+//lighter purple?
+
+.comment-form input[type='submit']:hover,
+.comment-form input[type='submit']:active {
+	background: $light-purple;
+}
+
+.comment-form input:not([type='submit']),
+.comment-form textarea {
+	color: $light-purple;
+}
+.comment-form .input-group input.has-value ~ label,
+.comment-form .input-group textarea.has-value ~ label,
+.comment-form .input-group input:focus ~ label,
+.comment-form .input-group textarea:focus ~ label {
+	color: $light-purple;
+}
+
+.comment-form .input-group input.has-value,
+.comment-form .input-group textarea.has-value,
+.comment-form .input-group input:focus,
+.comment-form .input-group textarea:focus {
+	border-color: $light-purple;
+}
+
+.comments-area .ul-comments .comment .comment-body .comment-reply-link:hover {
+	color: $light-purple;
+}

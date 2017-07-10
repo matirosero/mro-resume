@@ -1,0 +1,30 @@
+/* === 19. START BLOGPOST SLIDE === */
+
+/* == Blogpost Body == */
+
+.blogpost-body {
+	.page-numbers {
+		li {
+			color: $purple;
+			a:hover {
+				color: $purple;
+			}
+		}
+	}
+}
+
+/* Styling Blockquote */
+blockquote {
+	background: #119a6b;
+	&:before {
+		font-family: 'Times New Roman', serif;
+		content: open-quote;
+		background: #119a6b;
+	}
+}
+
+/* Styling Accordion */
+
+.blogpost-body .panel-group .panel-title a:first-of-type:hover {
+	color: #119a6b;
+}
