@@ -202,7 +202,7 @@ return array(
 														'id'=>'social_platforms',
 														'size'=>'half',
 														'type'=>'social_platforms',
-														'platforms'=>array('facebook','twitter','google','pinterest','linkedin','dribbble','behance','youtube','flickr','rss')
+														'platforms'=>array('facebook','twitter','google','pinterest','linkedin','dribbble','behance','youtube','flickr','github','instagram','rss')
 												)
 										)
 								),
