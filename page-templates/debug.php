@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Debug
- * The template for displaying a full width page.
+ * The template for debugging and tests.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
